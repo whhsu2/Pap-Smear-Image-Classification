@@ -1,0 +1,8 @@
+# ignore images unzipped files
+images/
+
+# ignore images zipped files
+images_zip/
+
+# ignore model pretrained weights
+weights/
