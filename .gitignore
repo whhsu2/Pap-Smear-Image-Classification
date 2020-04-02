@@ -1,8 +1,14 @@
-# ignore images unzipped files
+# images unzipped files
 images/
 
-# ignore images zipped files
+# images zipped files
 images_zip/
 
-# ignore model pretrained weights
+# model pretrained weights
 weights/
+
+# Ds store
+.DS_Store
+
+# python notebook checkpoints
+.ipynb_checkpoints/
