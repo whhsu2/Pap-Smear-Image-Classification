@@ -1,6 +1,6 @@
 # Pap Smear Image Classification with Pytorch
 
-<img width="400" src="pap.png"></img>
+<img width="400" src="misc/pap.png"></img>
 
 ## Intro
 
@@ -24,7 +24,7 @@ Convolutional neural network (CNN) models we used are VGG-11, Resnet-18, Resnet-
 The optimizer Adam was used to train the models. To make the models converge faster and increase accuracy, we implemented a scheduler which reduces the learning rate at each epoch. Training is terminated after 50 epochs. All the models were trained using Pytorch for Python.
 
 ## Results
-<img src="confusion_matrix.png"></img>
+<img src="misc/confusion_matrix.png"></img>
 
 The table displays the classification of cropped cell images using Resnet50
 
